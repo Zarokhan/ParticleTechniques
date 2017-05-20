@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\Direct3DManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\InputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\TextureLoader\WICTextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\WorldObjects\Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\WorldObjects\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\WorldObjects\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\Utilities\DebugWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\Shaders\SuperShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\Shaders\TextureShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\RenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\ParticleSystem\ParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\Shaders\particleshader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\TextureLoader\DDSTextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Graphics\GPUParticleSystem\ParticleSys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Benchmark\Benchmark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\Graphics\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\Direct3DManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\InputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\DirectX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\TextureLoader\WICTextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\WorldObjects\Cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\WorldObjects\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\WorldObjects\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\Utilities\DebugWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\Shaders\SuperShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\Shaders\TextureShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\RenderTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\ParticleSystem\ParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\Shaders\particleshader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\TextureLoader\DDSTextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\GPUParticleSystem\ParticleSys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\D3D11Effects\Binary\EffectBinaryFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\D3D11Effects\Binary\EffectStateBase11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\D3D11Effects\Binary\EffectStates11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\D3D11Effects\Binary\SOParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\D3D11Effects\inc\d3dxGlobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Graphics\D3D11Effects\inc\d3dx11effect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Benchmark\Benchmark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\models\ak47.fbx" />
+    <None Include="Shaders\supershader.ps" />
+    <None Include="Assets\models\sphere.fbx" />
+    <None Include="Shaders\supershaderVS.hlsl" />
+    <None Include="Shaders\textureshaderPS.hlsl" />
+    <None Include="Shaders\textureshaderVS.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\stone.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\0001CD_diffuse.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\0001CD_disp.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\0001CD_normal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\0001CD_opac.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\0001CD_spec.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\0001CD_trans.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\brick_bump.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\brick_diffuse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\brick_specular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\crate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\earth_bump.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\earth_diffuse.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\fence_alpha.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\fence_diffuse.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\Fieldstone_bump.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\Fieldstone_diffuse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\floor_bump.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\floor_diffuse.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\hazard.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\holes_bump.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\holes_diffuse.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\stone43_bump.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\stone43_diffuse.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\stone47_bump.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\stone47_diffuse.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\wood_texture_004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\star.dds" />
+    <Image Include="Assets\snow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\snow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\snow_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\snow_bump.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\texturepack\snow_diffuse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\NoiseTexture.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\NoiseTextureColor.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\png.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\png2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\NoiseTextureColor2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\NoiseTextureColor3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\Cube.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\supershaderPS.hlsl" />
+    <FxCompile Include="Shaders\particlePS.hlsl" />
+    <FxCompile Include="Shaders\particleVS.hlsl" />
+    <FxCompile Include="Shaders\snow.fx" />
+    <FxCompile Include="Shaders\particleGS.hlsl" />
+  </ItemGroup>
+</Project>
